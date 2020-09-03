@@ -1,0 +1,80 @@
+/** General style rules */
+.g_padding {
+    padding: 6px;
+}
+
+.g_border-radius {
+    border-radius: 4px;
+}
+
+.g_font-family {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.g_font-size-large {
+    font-size: 20px;
+}
+
+.g_font-size-regular {
+    font-size: 16px;
+}
+
+.g_width-full {
+    width: 100%;
+}
+
+.g_button {
+    border: 1px solid #95389e;
+    padding: 5px 20px;
+    background-color: #95389e;
+    cursor: pointer;
+    color: #f7f7f7;
+}
+
+.g_button:hover {
+    background-color: #c778cf;
+}
+
+.g_input {
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    min-width: 300px;
+}
+
+/** Styles specific for different HTML elements */
+.root {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.add-activity {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-activity-button {
+    border: none;
+    background: none;
+    padding: 12px 0px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
